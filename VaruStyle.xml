@@ -1,0 +1,118 @@
+<!-- Varu.xml
+
+ Author:
+ 	Raymundo Vásquez Ruiz <ray@lunasexta.org>
+ 	GPL v2
+ 	V0.1
+ -->
+ <EditorStyle name="Varu" _description="Fondo oscuro, colores fuertes (no chillones).">
+ 
+	<!-- tango palette -->
+	
+	<Color name="strcolor" value="#54E909"/>
+	<Color name="digitcolor" value="#15E831"/>
+	<Color name="invalidfcolor" value="#fcaf3e"/>	
+	<Color name="decfcolor" value="#1E92FD"/>	
+	<Color name="rsvtype" value="#FFAF1B"/>
+	<Color name="rsvconst" value="#D56311"/>
+	<Color name="mrkchanged" value="#73d216"/>
+	<Color name="preprocessorfcolor" value="#FF4015"/>	
+	<Color name="seltxtfcolor" value="#eeeeee"/>
+	<Color name="txtfcolor" value="#d3d7cf"/>
+	<Color name="selinefcolor" value="#D2D5CE"/>
+	<Color name="seltxtbcolor" value="#1466B3"/>
+	<Color name="rulerbcolor" value="#161716"/>
+	<Color name="txtbcolor" value="#1A1A1A"/>
+	<Color name="mrkbcolor" value="#4C4C4C"/>
+	<Color name="todo" value="#FFFFFF" />
+	<Color name="todobcolor" value="#E04B2A"/>
+	<Color name="accessfcolor" value="#CED500" />
+	<Color name="operatorfcolor" value="#0492FF" />
+	<Color name="exceptfcolor" value="#FF0004" />
+	<Color name="iteratefcolor" value="#38BB4A" />
+	<Color name="jumpfcolor" value="#EAFF2B" />
+	
+	<!-- environment -->
+	<Style name="text" color="txtfcolor" bgColor="txtbcolor"/>
+	<Style name="text.selection" color="seltxtfcolor" bgColor="seltxtbcolor"/>
+	<Style name="text.background.searchresult" color="seltxtfcolor"/>
+	<Style name="text.link" color="strcolor"/>
+	
+	<Style name="caret" color="txtfcolor" bgColor="txtbcolor" weight="bold"/>
+	
+	<Style name="marker.line" color="mrkbcolor"/>
+	<Style name="marker.line.changed" color="mrkchanged"/>
+	<Style name="marker.line.dirty" color="strcolor"/>
+	
+	<Style name="marker.ruler" color="rulerbcolor"/>
+	<Style name="marker.whitespace" color="selinefcolor"/>
+	<Style name="marker.invalidline" color="invalidfcolor"/>
+	<Style name="marker.bracket" color="seltxtbcolor" bgColor="txtbcolor"/>
+	
+	<Style name="marker.bookmark.color1" color="seltxtfcolor"/>
+	<Style name="marker.bookmark.color2" color="seltxtbcolor"/>
+	
+	<Style name="diff">
+		<Style name="line-added" color="strcolor"/>
+		<Style name="line-removed" color="preprocessorfcolor"/>
+		<Style name="line-changed" color="rsvconst"/>
+		
+		<Style name="header" color="rsvtype" weight="bold"/>
+		<Style name="header-seperator" color="seltxtbcolor"/>
+		<Style name="header-oldfile" color="rsvtype" weight="bold"/>
+		<Style name="header-newfile" color="rsvtype" weight="bold"/>
+		
+		<Style name="location" color="rsvtype"/>
+	</Style>
+	
+	<Style name="linenumber" color="rulerbcolor" bgColor="mrkbcolor"/>
+	<Style name="linenumber.highlight" color="selinefcolor"/>
+	
+	<Style name="iconbar" color="mrkbcolor"/>
+	<Style name="iconbar.separator" color="txtbcolor"/>
+
+	<Style name="fold" color="selinefcolor" bgColor="black"/>
+	<Style name="fold.highlight" color="txtfcolor"/>
+	<Style name="fold.togglemarker" color="seltxtfcolor"/>
+	
+	<!-- highlighting -->
+	<Style name="comment" color="seltxtbcolor"/>
+	<Style name="comment.keyword.todo" color="todo" bgColor="todobcolor" weight="bold" />
+	<Style name="comment.keyword" color="seltxtbcolor" weight="bold" />
+	<Style name="comment.tag" color="seltxtbcolor"/>
+	
+	<Style name="text.literal" color="strcolor"/>
+	<Style name="text.punctuation" color="strcolor"/>
+	<Style name="text.preprocessor" color="preprocessorfcolor" weight="italic"/>
+	<Style name="text.preprocessor.keyword" color="preprocessorfcolor" weight="bold"/>
+	<Style name="text.markup" color="preprocessorfcolor"/>
+	<Style name="text.markup.tag" color="preprocessorfcolor"/>
+	
+	<Style name="constant" color="strcolor"/>
+	<Style name="constant.digit" color="digitcolor"/>
+	<Style name="constant.language" color="rsvtype"/>
+	<Style name="constant.language.void" color="rsvconst" weight="bold"/>
+	
+	<Style name="string" color="strcolor"/>
+	<Style name="string.single" color="strcolor"/>
+	<Style name="string.double" color="strcolor"/>
+	<Style name="string.other" color="strcolor"/>
+	
+	<Style name="keyword.access" color="accessfcolor" weight="bold"/>
+	<Style name="keyword.operator" color="rsvconst" weight="bold" />
+	<Style name="keyword.selection" color="iteratefcolor" weight="bold"/>
+	<Style name="keyword.iteration" color="iteratefcolor" />
+	<Style name="keyword.jump" color="jumpfcolor" weight="bold"/>
+	<Style name="keyword.context" color="operatorfcolor" />
+	<Style name="keyword.exceptions" color="accessfcolor" weight="bold" />
+	
+	<Style name="keyword.modifier" color="rsvconst" />
+	<Style name="keyword.type" color="rsvtype" />
+	<Style name="keyword.namespace" color="rsvconst" />
+	<Style name="keyword.property" color="accessfcolor" />
+	<Style name="keyword.declaration" color="decfcolor" weight="bold" />
+	<Style name="keyword.parameter" color="operatorfcolor" />
+	<Style name="keyword.operator.declaration" color="rsvtype" weight="bold" />
+	<Style name="keyword.misc" color="iteratefcolor" />
+	
+</EditorStyle>
